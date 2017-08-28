@@ -10,11 +10,7 @@ seq = require('run-sequence');
 boxen = require('../../index.js');
 
 gulp.task('build', function() {
-  return gulp.src('text.txt').pipe(boxen({
-    padding: 3,
-    margin: 2,
-    borderStyle: "double"
-  })).pipe(gulp.dest('results'));
+  return gulp.src('text.txt').pipe(boxen()).pipe(gulp.dest('results'));
 });
 
 gulp.task('clean', function() {

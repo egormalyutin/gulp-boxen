@@ -11,9 +11,9 @@ boxen = require('../../index.js');
 
 gulp.task('build', function() {
   return gulp.src('text.txt').pipe(boxen({
-    padding: 3,
-    margin: 2,
-    borderStyle: "double"
+    padding: 2,
+    margin: 1,
+    borderStyle: "round"
   })).pipe(gulp.dest('results'));
 });
 
