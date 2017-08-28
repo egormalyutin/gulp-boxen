@@ -37,7 +37,7 @@ gulp.task 'default', [ 'build' ]
 or **Gulpfile.js**:
 ```js
 var gulp  = require('gulp');
-var boxen = require('../../index.js');
+var boxen = require('gulp-boxen');
 
 gulp.task( 'build', function() {
 	gulp.src( 'text.txt' )
