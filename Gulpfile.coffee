@@ -12,7 +12,7 @@ gulp.task 'build', ->
 		.pipe uglify()
 		.pipe gulp.dest 'build/'
 
-	gulp.src 'package.json'
+	gulp.src [ 'package.json', 'README.md' ]
 		.pipe gulp.dest 'build/'
 
 gulp.task 'test', ->

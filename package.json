@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "Create boxes in the terminal: now with Gulp!",
   "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
   "keywords": [
     "box",
     "boxes",
     "boxen",
-    "gulp"
+    "gulp",
+    "gulpplugin",
+    "gulp-plugin",
+    "gulp plugin"
   ],
   "author": "egorgl",
   "license": "ISC",

@@ -16,7 +16,7 @@ exec = require('child_process').exec;
 gulp.task('build', function() {
   del('build/index.js');
   gulp.src('index.js').pipe(uglify()).pipe(gulp.dest('build/'));
-  return gulp.src('package.json').pipe(gulp.dest('build/'));
+  return gulp.src(['package.json', 'README.md']).pipe(gulp.dest('build/'));
 });
 
 gulp.task('test', function() {
