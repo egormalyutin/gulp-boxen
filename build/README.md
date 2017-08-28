@@ -14,7 +14,7 @@ npm i gulp-boxen
 
 **text.txt**:
 ```bash
-foo bar
+GULP-BOXEN
 ```
 
 **Gulpfile.coffee**:
