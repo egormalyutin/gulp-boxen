@@ -1,6 +1,6 @@
 # gulp-boxen
 
-This is useless plugin for wrapping your content to boxes. Uses https://www.npmjs.com/package/boxen.
+This is useless plugin for wrapping your content to boxes. Uses [boxen](https://www.npmjs.com/package/boxen).
 
 ## Installation
 
@@ -75,12 +75,8 @@ Now **results/text.txt** is
 
 ## API
 
-See boxen's https://www.npmjs.com/package/boxen.
+See boxen's [API](https://www.npmjs.com/package/boxen).
 
 ## License
 
-https://github.com/malyutinegor/gulp-boxen/.
-
-[boxen](https://www.npmjs.com/package/boxen).
-[API](https://www.npmjs.com/package/boxen).
 [MIT](https://github.com/malyutinegor/gulp-boxen/).
