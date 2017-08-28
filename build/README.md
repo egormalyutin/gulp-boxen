@@ -13,7 +13,7 @@ npm i gulp-boxen
 ## Example
 
 **text.txt**:
-```
+```bash
 foo bar
 ```
 
@@ -54,12 +54,12 @@ gulp.task('default', [ 'build' ]);
 ```
 
 Run:
-```
+```bash
 gulp
 ```
 
 Now **results/text.txt** is
-```
+```bash
 
 
       ╔════════════════════════════╗

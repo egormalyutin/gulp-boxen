@@ -1,6 +1,6 @@
 {
   "name": "gulp-boxen",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Create boxes in the terminal: now with Gulp!",
   "main": "index.js",
   "scripts": {
