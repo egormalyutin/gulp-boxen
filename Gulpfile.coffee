@@ -6,7 +6,7 @@ seq    = require 'run-sequence'
 exec   = require('child_process').exec
 
 gulp.task 'build', ->
-	del 'build/index.js'
+	del 'build/*'
 
 	gulp.src 'index.js'
 		.pipe uglify()
