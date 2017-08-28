@@ -15,8 +15,11 @@
     "gulp-plugin",
     "gulp plugin"
   ],
+  "repository": "malyutinegor/gulp-boxen",
+  "url" : "https://github.com/malyutinegor/gulp-boxen/issues",
+  "email" : "egorcod.tk@gmail.com",
   "author": "egorgl",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "boxen": "^1.2.1",
     "gulp-util": "^3.0.8",
