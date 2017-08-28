@@ -79,4 +79,4 @@ See boxen's [API](https://www.npmjs.com/package/boxen).
 
 ## License
 
-[MIT](https://github.com/malyutinegor/gulp-boxen/).
+[MIT](https://github.com/malyutinegor/gulp-boxen/blob/master/LICENSE).
