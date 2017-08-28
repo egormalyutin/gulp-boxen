@@ -10,7 +10,10 @@
     "box",
     "boxes",
     "boxen",
-    "gulp"
+    "gulp",
+    "gulpplugin",
+    "gulp-plugin",
+    "gulp plugin"
   ],
   "author": "egorgl",
   "license": "ISC",
